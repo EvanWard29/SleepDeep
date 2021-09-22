@@ -1,0 +1,32 @@
+
+.main{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main input{
+    margin: 0;
+}
+
+.main input[type=text]{
+
+}
+
+.main input[type=submit]{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.main input.requestData{
+    background-color: #1f1f1f;
+}
+
+.main input.deleteData{
+    background-color: #D62828;
+}

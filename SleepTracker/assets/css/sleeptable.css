@@ -1,0 +1,59 @@
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    height: 50px;
+}
+
+@media screen and (max-width: 1081px) {
+
+    div.main {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    div.main table {
+        margin-left:auto;
+        margin-right:auto;
+        font-size:20px;
+    }
+}
+
+div.column select{
+    margin: auto;
+    height: 50px;
+    width: 60%;
+    font-size: 18px;
+}
+
+div.column input{
+    height: 60px;
+    width:50%;
+}
+
+div.item h5 {
+    font-size: 40px;
+}
+
+div.item h6{
+    font-size: 30px;
+}
+
+.column input[type=text] {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+
